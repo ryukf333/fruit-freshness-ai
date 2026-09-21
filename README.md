@@ -39,7 +39,7 @@ The system implements a two-stage transfer learning strategy with **EfficientNet
 
 To ensure the neural network learns true biological degradation cues rather than photographic artifacts (such as backgrounds, table surfaces, or shadows), Gradient-Weighted Class Activation Mapping (Grad-CAM) was hooked into the final convolutional stage (`features[-1]`).
 
-![Grad-CAM Explanation Panel](figures/gradcam_failure_cases.png)
+![Grad-CAM Explanation Panel](Figures/gradcam_failure_cases.png)
 
 ### Findings:
 * **Background Suppression:** White fabric textures, cutting boards, and drop shadows receive near-zero activation (deep blue).
